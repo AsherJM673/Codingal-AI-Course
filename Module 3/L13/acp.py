@@ -37,4 +37,4 @@ plt.title("Rotated Image")
 plt.show()
 
 # Step 6: Increase brightness by adding 50 to all pixel values
-brightness
+

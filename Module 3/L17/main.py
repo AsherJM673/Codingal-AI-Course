@@ -45,8 +45,8 @@ while True:
                  cv2.putText(frame, "Scroll Down", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 3)
 
                 else:
-                
-                   cv2.putText(frame, "Neutral", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 3)
+                    cv2.putText(frame, "Neutral", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 0), 3)
+                  
     cv2.imshow("Hand Gesture Scroll Controller", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
        break

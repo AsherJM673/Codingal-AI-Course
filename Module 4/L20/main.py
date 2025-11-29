@@ -34,7 +34,7 @@ def askQuestion():
     print(Fore.CYAN + "\n" + question)
     for label, text in mapped.items():
         print(Fore.YELLOW + f"{label}. {text}")
-        choice = input(Fore.GREEN + "Your answer (A-D): ").upper().strip()
+    choice = input(Fore.GREEN + "Your answer (A-D): ").upper().strip()
 
     if choice in mapped:
         if mapped[choice] == correct:

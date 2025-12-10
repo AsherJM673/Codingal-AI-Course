@@ -20,13 +20,13 @@ def display_fact(data):
     print(f"📌 Source: {data.get('source', 'Unknown')}")
     print(f"🔗 URL: {data.get('source_url', 'N/A')}\n")
 
-# --- Example usage ---
+
 print("Fetching a completely random fact...")
 fact1 = get_random_fact()
 display_fact(fact1)
 
 print("Fetching facts from different categories...")
-categories = ["science", "history", "general"]  # only works if API supports them
+categories = ["science", "history", "general"] 
 
 for category in categories:
     print(f"Category: {category}")

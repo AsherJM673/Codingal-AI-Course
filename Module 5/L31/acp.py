@@ -162,7 +162,7 @@ def show_waveform(data, rate):
 
 def main():
 
-    print("???? Speak into the mic. Press Enter to stop.")
+    print("Speak into the mic. Press Enter to stop.")
 
     audio, rate, width = record_until_enter()
 
